@@ -1,0 +1,138 @@
+/*
+* Estilos de cabeçalho
+*/
+header {
+    background-color: white;
+    border-bottom: 3px solid #ddd;
+    padding: 25px 10%;
+    display: flex;
+}
+
+header .logo,
+header .social { width: 50%; }
+
+#Siga-conectado {
+    color: gray; 
+    float: right;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+header .social a {
+    height: 32px;
+    width: 32px;
+    float: right;
+    margin-left: 5px;
+}
+
+
+main .conteudo{
+    display: flex;
+    background: #f5f5f5;
+    padding: 50px 10%;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.form-area {
+    background-color: white;
+    margin-left: 15px;
+    width: 400px;
+}
+.video-area {
+    margin-right: 100px;
+ 
+}
+
+.video-area iframe {
+    width: 100%;}
+
+
+input {
+    background-color: #eee;
+    border-radius: 3px;
+    border: solid 1px darkgrey;
+    box-sizing: border-box;
+    height: 48px;
+    margin: 10px 0;
+    max-width: 100%;
+    padding: 6px 15px;
+    width: 100%;
+    
+}
+
+#botao{ text-align: center }
+.botaoEnviar{
+    width: 350px;
+    text-align: center;
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #FCC302;
+    font-size: 18px;
+
+
+}
+
+form, div.form-header { 
+    margin: 20px;
+    padding: 20px 20px;
+}
+
+.notes {
+    font-size: 12px;
+    color: gray;
+    padding: 5px;
+}
+
+
+/* Roda pé*/
+
+footer {
+    background-color: #f6f6f6;
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+}
+
+header  .youtube_button {
+    background-image: url(../images/social_media_icons/yt.png);
+}
+
+header  .twitter_button {
+    background-image: url(../images/social_media_icons/twitter.png);
+}
+
+header  .facebook_button {
+    background-image: url(../images/social_media_icons/facebook.png);
+}
+
+header  .instagram_button {
+    background-image: url(../images/social_media_icons/instagram.png);
+}
+
+/* hover*/
+
+header  .youtube_button:hover {
+    background-image: url(../images/social_media_icons/youtube-hover.png);
+}
+
+header  .twitter_button:hover {
+    background-image: url(../images/social_media_icons/twitter-hover.png);
+}
+
+header  .facebook_button:hover {
+    background-image: url(../images/social_media_icons/facebook-hover.png);
+}
+
+header  .instagram_button:hover {
+    background-image: url(../images/social_media_icons/instagram-hover.png);
+}
+
+
+
+
